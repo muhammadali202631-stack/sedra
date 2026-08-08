@@ -301,23 +301,27 @@ body {
       gap: 17px;
       margin-top: 40px;
       .div1 {
+        position: relative;
         grid-column: span 6 / span 6;
         grid-row: span 4 / span 4;
         background: $card-color-bg;
       }
       .div5 {
+        position: relative;
         grid-column: span 3 / span 3;
         grid-row: span 8 / span 8;
         grid-column-start: 7;
         background: $blog-bg;
       }
       .div6 {
+        position: relative;
         grid-column: span 3 / span 3;
         grid-row: span 4 / span 4;
         grid-row-start: 5;
         background: $blog-bg;
       }
       .div7 {
+        position: relative;
         grid-column: span 3 / span 3;
         grid-row: span 4 / span 4;
         grid-column-start: 4;
@@ -436,6 +440,11 @@ body {
         .team-emg {
           margin-top: 200px;
           margin-left: -120px;
+          .team-emg1{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
         }
       }
     }
