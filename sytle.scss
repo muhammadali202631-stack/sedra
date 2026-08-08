@@ -262,6 +262,7 @@ body {
               color: $text-black-color;
             }
             img {
+              cursor: pointer;
               border: 0.5px solid $navbar-btn-border;
               padding: 8px;
               border-radius: 10px;
