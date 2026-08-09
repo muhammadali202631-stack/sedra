@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 30px auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+body .navbar {
+
+    width: 126.5%;
+
+    min-height: 72px;
+
+    padding: 0 20px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+    margin-top: -30px;
+
+
+
+}
+
+body .navbar .canteiner {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 4.5rem;
+    margin-left: 150px;
+
+
+}
+
+body .navbar .canteiner .project {
+
+    display: flex;
+
+    gap: 2rem;
+
+}
+
+body .navbar .canteiner .project p {
+
+    color: #70737c;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+}
+
+body .navbar .canteiner button {
+
+    width: 285px;
+
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 1rem;
+
+    margin-left: -30px;
+
+    padding: 5px 20px;
+
+    border-radius: 50px;
+
+    border: 1px solid #efefef;
+
+    background: white;
+
+}
+
+body .navbar .canteiner button input {
+
+    border: none;
+
+    background: transparent;
+
+    margin-right: 40px;
+
+}
+
+body .navbar .canteiner button input:hover {
+
+    border: transparent;
+
+    background: transparent;
+
+}
+
+body .navbar .canteiner .ilova {
+
+    width: 24px;
+
+    height: 24px;
+
+    cursor: pointer;
+
+    display: flex;
+
+}
+
+body .navbar .canteiner .ilova1 {
+
+    cursor: pointer;
+
+    color: #70737c;
+
+    display: flex;
+
+    gap: 1rem;
+
+}
+
+body .navbar .canteiner .ilova1 svg {
+
+    color: #359740;
+
+}
+.hero-section{
+    width: 100%;
+    height: 251px;
+
+}
+.hero-section img{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    font-family: "lexand",sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    margin-left: 340px;
+
+}
+.text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.text p{
+    line-height: 30px;
+    font-weight: 300;
+}

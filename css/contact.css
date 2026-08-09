@@ -24,7 +24,8 @@ body {
   justify-content: space-between;
 
 }
-.container{
+
+.container {
   max-width: 1200px;
   margin: 0 auto;
 
@@ -32,7 +33,7 @@ body {
 
 body .navbar {
 
-  width: 128%;
+  width: 126.5%;
 
   min-height: 72px;
 
@@ -47,13 +48,14 @@ body .navbar {
   align-items: center;
 
   justify-content: space-between;
+  margin-top: -30px;
 
-  
+
 
 }
 
 body .navbar .canteiner {
-  
+
   display: flex;
 
   align-items: center;
@@ -61,7 +63,7 @@ body .navbar .canteiner {
   justify-content: center;
 
   gap: 4.5rem;
-  margin-left:150px;
+  margin-left: 150px;
 
 
 }
@@ -155,8 +157,268 @@ body .navbar .canteiner .ilova1 {
 body .navbar .canteiner .ilova1 svg {
 
   color: #359740;
-  
+
 }
 
+.hero-contact {
+  position: relative;
+  width: 100%;
+  height: 546px;
+  background-color: #eaf1eb;
+  margin-top: 30px;
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 0px 40px;
+  margin-bottom: 100px;
+}
 
-  
+.birinchi-img {
+  width: 120px;
+  margin-left: -40px;
+
+  margin-top: -20px;
+}
+
+.ikinchi-img {
+  position: absolute;
+  top: 70px;
+  left: 1075px;
+}
+
+.uchunchi-img {
+  position: absolute;
+  top: 0;
+  left: 950px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.left-div {
+
+  width: 50%;
+  height: 482px;
+  margin-top: -100px;
+  font-family: "lexand", sans-serif;
+
+}
+
+.left-div h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px
+}
+
+.left-div p {
+  font-weight: 300;
+  margin-bottom: 180px;
+  line-height: 30px;
+}
+
+.call {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 30px
+}
+
+.left-div .call1 {
+  position: absolute;
+  color: #70737c;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  left: 120px;
+  top: 385px;
+}
+
+.massage {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+
+}
+
+.massage1 {
+  color: #70737c;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  margin-bottom: 50px;
+  left: 120px;
+  top: 465px;
+}
+
+.right-div {
+  position: relative;
+  width: 49%;
+  height: 482px;
+  background-color: #fff;
+  z-index: 1;
+  margin-top: -100px;
+  border-radius: 29px;
+  padding: 30px 30px;
+}
+
+.right-div p {
+  color: #70737c;
+  margin-bottom: 10px;
+
+}
+
+.right-div input {
+  width: 490px;
+  height: 50px;
+  border: 2px solid #efefef;
+  margin-bottom: 30px;
+  padding: 0px 30px;
+  font-size: 1rem;
+
+}
+
+textarea {
+  border: 2px solid #efefef;
+  padding: 10px 10px;
+  width: 490px;
+  height: 110px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.right-div a button {
+  width: 160px;
+  height: 50px;
+  background-color: #359740;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.right-div .span {
+  position: absolute;
+  color: #70737c;
+  margin-left: 50px;
+  font-size: 14px;
+  right: 100px;
+  line-height: 25px;
+  top: 417px;
+}
+
+body .seedra-footer {
+
+ width: 126.5%;
+
+  height: 172px;
+  padding: 30px 0px;
+  box-shadow: 0 10px 10px rgba(147, 147, 147, 0.2),
+    0 -10px 20px rgba(144, 144, 144, 0.2);
+}
+
+body .seedra-footer .pages-text {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4.5rem;
+
+}
+
+body .seedra-footer .pages-text p {
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 178%;
+
+  color: #70737c;
+
+}
+
+body .seedra-footer .pages-text .p1 {
+
+  color: #359740;
+
+}
+
+body .seedra-footer .pages-text p{
+  font-size: 13px;
+}
+body .seedra-footer .pages-text .line {
+
+  width: 1.5px;
+
+  height: 30px;
+
+  background: #359740;
+
+}
+
+body .seedra-footer .lene2 {
+
+  margin-top: 30px;
+
+  width: 100%;
+
+  height: 1.5px;
+
+  background: #c3e0c6;
+
+}
+
+body .seedra-footer .ilova-footer {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-top: 20px;
+
+}
+
+body .seedra-footer .ilova-footer div {
+
+  cursor: pointer;
+
+  display: flex;
+
+  gap: 1rem;
+
+}
+
+body .seedra-footer .ilova-footer div img {
+
+  cursor: pointer;
+
+}
+
+body .seedra-footer .ilova-footer p {
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 178%;
+
+  color: #70737c;
+
+}
