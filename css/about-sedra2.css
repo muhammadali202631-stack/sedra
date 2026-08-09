@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body .navbar {
+  width: 100%;
+  min-height: 72px;
+  padding: 0 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .navbar .canteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+}
+
+body .navbar .canteiner .project {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+body .navbar .canteiner .project p {
+  cursor: pointer;
+  color: #70737c;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+body .navbar .canteiner .project p:hover {
+  color: #359740;
+}
+
+body .navbar .canteiner button {
+  width: 285px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: -30px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 1px solid #efefef;
+  background: white;
+}
+
+body .navbar .canteiner button input {
+  border: none;
+  background: transparent;
+  margin-right: 40px;
+}
+
+body .navbar .canteiner button input:hover {
+  border: transparent;
+  background: transparent;
+}
+
+body .navbar .canteiner .ilova {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+}
+
+body .navbar .canteiner .ilova1 {
+  cursor: pointer;
+  color: #70737c;
+  display: flex;
+  gap: 1rem;
+}
+
+body .navbar .canteiner .ilova1 svg {
+  color: #359740;
+}
+
+.search-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.search-input {
+  width: 825px;
+  height: 64px;
+  border-radius: 71px;
+  border: 1px solid #efefef;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.search-input:hover {
+  border: 1px solid #efefef;
+}
+
+.btn20 {
+  width: 358px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: transparent;
+  border: 1px solid #efefef;
+  border-radius: 71px;
+}
+
+.searchs {
+  display: flex;
+  margin-top: 40px;
+  gap: 3rem;
+}
+
+.btn12 {
+  text-align: start;
+}
+
+.p12 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #70737c;
+}
+
+.p15 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2533;
+}
+
+body .our-section {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 2500px;
+  margin: 0 auto;
+}
+
+
+
+body .our-section .our-btns {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+body .our-section .our-btns button {
+  cursor: pointer;
+  padding: 7px 25px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #efefef;
+}
