@@ -50,11 +50,12 @@ body .navbar .canteiner .project {
   gap: 2rem;
 }
 
-body .navbar .canteiner .project p {
+body .navbar .canteiner .project p a {
   cursor: pointer;
   color: #70737c;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 body .navbar .canteiner .project p:hover {
