@@ -7,15 +7,6 @@
   font-family: "Lexend", sans-serif;
 }
 
-body {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  overflow-x: hidden;
-}
-
 body .navbar {
   width: 100%;
   min-height: 72px;
@@ -40,7 +31,6 @@ body .navbar .canteiner {
   align-items: center;
   justify-content: center;
   gap: 4.5rem;
-  width: 100%;
 }
 
 body .navbar .canteiner .project {
@@ -81,12 +71,16 @@ body .navbar .canteiner button input {
   margin-right: 40px;
 }
 
+body .navbar .canteiner button input:hover {
+  border: transparent;
+  background: transparent;
+}
+
 body .navbar .canteiner .ilova {
   width: 24px;
   height: 24px;
   cursor: pointer;
   display: flex;
-  gap: 10px;
 }
 
 body .navbar .canteiner .ilova1 {
@@ -94,12 +88,12 @@ body .navbar .canteiner .ilova1 {
   color: #70737c;
   display: flex;
   gap: 1rem;
-  align-items: center;
 }
 
 body .navbar .canteiner .ilova1 svg {
   color: #359740;
 }
+
 
 body .liniar,
 body .chiziq-uzun {
@@ -110,7 +104,7 @@ body .chiziq-uzun {
 
 /* BREADCRUMB */
 .breadcrumb {
-  margin-right: 940px;
+  margin-right: 150px;
   font-size: 13px;
   color: #777;
   padding: 20px 20px;
