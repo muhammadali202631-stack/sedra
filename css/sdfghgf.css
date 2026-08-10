@@ -159,29 +159,225 @@ body .navbar .canteiner .ilova1 svg {
     color: #359740;
 
 }
-.hero-section{
+
+.hero-section {
     width: 100%;
     height: 251px;
+    margin-bottom: 100px;
+
 
 }
-.hero-section img{
+
+.hero-section img {
     position: relative;
     width: 100%;
     margin-top: 30px;
 }
-.text{
-    font-family: "lexand",sans-serif;
+
+.text {
+    font-family: "lexand", sans-serif;
     position: absolute;
     text-align: center;
     top: 180px;
     margin-left: 340px;
 
 }
-.text h1{
+
+.text h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
-.text p{
+
+.text p {
     line-height: 30px;
     font-weight: 300;
+}
+
+.big-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-div {
+    width: 50%;
+    font-family: "lexend", sans-serif;
+
+}
+
+.left-div h1 {
+    font-size: 39px;
+    line-height: 49px;
+    margin-bottom: 30px;
+
+}
+
+.left-div p {
+    color: rgba(31, 37, 51, 1);
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+
+}
+
+.our-story {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    width: 48%;
+
+}
+
+.rigt {
+    font-family: "lexend", sans-serif;
+    width: 48%;
+}
+
+.rigt h1 {
+    font-size: 39px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.rigt p {
+    color: rgba(31, 37, 51, 1);
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.hero-team {
+    font-family: "lexend", sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hero-team h1 {
+    margin-bottom: 100px;
+}
+
+.bigg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+body .seedra-footer {
+
+    width: 126.5%;
+    margin-top: 30px;
+    height: 152px;
+    padding: 30px 0px;
+    
+}
+
+body .seedra-footer .pages-text {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 4.5rem;
+
+}
+
+body .seedra-footer .pages-text p {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 178%;
+
+    color: #70737c;
+
+}
+
+body .seedra-footer .pages-text .p1 {
+
+    color: #359740;
+
+}
+
+body .seedra-footer .pages-text p {
+    font-size: 13px;
+}
+
+body .seedra-footer .pages-text .line {
+
+    width: 1.5px;
+
+    height: 30px;
+
+    background: #359740;
+
+}
+
+body .seedra-footer .lene2 {
+
+    margin-top: 30px;
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background: #c3e0c6;
+
+}
+
+body .seedra-footer .ilova-footer {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+}
+
+body .seedra-footer .ilova-footer div {
+
+    cursor: pointer;
+
+    display: flex;
+
+    gap: 1rem;
+
+}
+
+body .seedra-footer .ilova-footer div img {
+
+    cursor: pointer;
+
+}
+
+body .seedra-footer .ilova-footer p {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 178%;
+
+    color: #70737c;
+
 }
