@@ -319,7 +319,8 @@ textarea {
 }
 
 body .seedra-footer {
-
+max-width: 1200px;
+margin: o auto;
  width: 126.5%;
 
   height: 172px;
@@ -334,7 +335,7 @@ body .seedra-footer .pages-text {
 
   align-items: center;
 
-  justify-content: center;
+  justify-content: space-between;
 
   gap: 4.5rem;
 
@@ -372,7 +373,7 @@ body .seedra-footer .pages-text .line {
 }
 
 body .seedra-footer .lene2 {
-
+  
   margin-top: 30px;
 
   width: 100%;

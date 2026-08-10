@@ -182,3 +182,571 @@ body .our-section .our-btns button {
   border-radius: 10px;
   border: 1px solid #efefef;
 }
+
+/* ============================================
+   CONTENT WRAPPER (Filters + Product grid)
+   ============================================ */
+
+body .our-section .content-wrapper {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 30px;
+  margin-top: 40px;
+  align-items: start;
+}
+
+/* ============================================
+   FILTER SIDEBAR
+   ============================================ */
+
+.filters {
+  width: 100%;
+}
+
+.filters-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #1f2533;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #efefef;
+}
+
+.filter-group:last-child {
+  border-bottom: none;
+}
+
+.filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.filter-header h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2533;
+}
+
+.filter-header .arrow {
+  color: #70737c;
+  flex-shrink: 0;
+}
+
+.filter-divider {
+  width: 100%;
+  height: 1px;
+  background: #efefef;
+  margin: 12px 0;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: #444;
+  cursor: pointer;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.filter-checkbox:last-child {
+  margin-bottom: 0;
+}
+
+.filter-checkbox input {
+  display: none;
+}
+
+.filter-checkbox .checkmark {
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #d0d0d0;
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  transition: all 0.15s ease;
+}
+
+.filter-checkbox input:checked + .checkmark {
+  background: #27833a;
+  border-color: #27833a;
+}
+
+.filter-checkbox input:checked + .checkmark::after {
+  content: "";
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+/* Price filter */
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.price-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.price-field label {
+  font-size: 11px;
+  color: #70737c;
+}
+
+.price-field input {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #efefef;
+  border-radius: 6px;
+  padding: 0 8px;
+  font-size: 13px;
+  color: #1f2533;
+}
+
+.price-dash {
+  color: #c3c3c3;
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+.price-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #27833a 25%, #e5e5e5 25%);
+  outline: none;
+}
+
+.price-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #27833a;
+  cursor: pointer;
+}
+
+.price-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #27833a;
+  cursor: pointer;
+}
+
+/* ============================================
+   PRODUCT GRID
+   ============================================ */
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  height: 460px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #f39c12;
+  cursor: pointer;
+}
+
+.product-card img {
+  max-width: 100%;
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card .fa-star,
+.product-card .fa-star-half-alt {
+  color: #ffcf55;
+}
+
+.card-stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  margin-top: 10px;
+  color: #888;
+}
+
+.product-card .fa-star {
+  color: #ffcf55;
+}
+
+.product-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 12px;
+  color: #222;
+  line-height: 1.4;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card-footer .price {
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1f2533;
+}
+
+.card-footer .price img {
+  width: 22px;
+  height: 22px;
+}
+
+.cart-icon-btn {
+  background: #fff;
+  border: 1px solid #efefef;
+  color: #27833a;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cart-icon-btn.active-cart {
+  background: #27833a;
+  border-color: #27833a;
+  color: #fff;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+body .seedra-footer {
+  max-width: 1200px;
+  margin: 50px auto 30px;
+  width: 100%;
+}
+
+body .seedra-footer .pages-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+body .seedra-footer .pages-text p {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  color: #70737c;
+  white-space: nowrap;
+}
+
+body .seedra-footer .pages-text .p1 {
+  color: #359740;
+}
+
+body .seedra-footer .pages-text .line {
+  width: 1.5px;
+  height: 20px;
+  background: #d5d5d5;
+}
+
+body .seedra-footer .pages-text img {
+  height: 22px;
+  margin: 0 1rem;
+}
+
+body .seedra-footer .lene2 {
+  margin-top: 24px;
+  width: 100%;
+  height: 1.5px;
+  background: #c3e0c6;
+}
+
+body .seedra-footer .ilova-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+body .seedra-footer .ilova-footer div {
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+body .seedra-footer .ilova-footer div img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+body .seedra-footer .ilova-footer p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #70737c;
+}
+
+/* ============================================
+   RESPONSIVE — MOBILE (max-width: 768px)
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  .container,
+  body .navbar .canteiner,
+  body .search-section,
+  body .our-section,
+  body .seedra-footer {
+    max-width: 100% !important;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* ===== NAVBAR ===== */
+  body .navbar {
+    padding: 14px 0;
+    min-height: 56px;
+  }
+
+  body .navbar .canteiner {
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+  }
+
+  body .navbar .canteiner .project,
+  body .navbar .canteiner button,
+  body .navbar .canteiner .ilova {
+    display: none;
+  }
+
+  body .navbar .canteiner .logo img {
+    height: 20px;
+  }
+
+  body .navbar .canteiner .ilova1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  body .navbar .canteiner .ilova1 img,
+  body .navbar .canteiner .ilova1 svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* ===== SEARCH SECTION ===== */
+  .search-section {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .search-section .container {
+    height: auto;
+  }
+
+  .searchs {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .search-input {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 0;
+    height: 48px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .btn20 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .btn20 .btn12 {
+    display: none;
+  }
+
+  /* ===== CATEGORY BUTTONS ===== */
+  body .our-section .our-btns {
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+
+  body .our-section .our-btns::-webkit-scrollbar {
+    display: none;
+  }
+
+  body .our-section .our-btns button {
+    flex-shrink: 0;
+    padding: 8px 16px;
+    gap: 8px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  /* ===== CONTENT WRAPPER / FILTERS ===== */
+  body .our-section .content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 20px;
+  }
+
+  /* Reference screenshotda filter sidebar ko'rinmaydi — mobilda yashiramiz */
+  .filters {
+    display: none;
+  }
+
+  /* ===== PRODUCT GRID (1 column) ===== */
+  .related-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .product-card {
+    height: auto;
+    width: 100%;
+    padding: 16px;
+  }
+
+  .product-card img {
+    height: 220px;
+  }
+
+  .product-card h3 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .card-footer .price {
+    font-size: 20px;
+    margin-top: 6px;
+  }
+
+  /* ===== FOOTER ===== */
+  body .seedra-footer {
+    height: auto;
+    margin: 60px auto;
+    width: 100%;
+  }
+
+  body .seedra-footer .pages-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 14px;
+    column-gap: 20px;
+    align-items: start;
+  }
+
+  body .seedra-footer .pages-text img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    height: 22px;
+    margin: 0 0 10px 0;
+  }
+
+  body .seedra-footer .pages-text .line {
+    display: none;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(1) { grid-column: 1; grid-row: 2; text-align: left; }
+  body .seedra-footer .pages-text p:nth-of-type(2) { grid-column: 1; grid-row: 3; text-align: left; }
+  body .seedra-footer .pages-text p:nth-of-type(3) { grid-column: 1; grid-row: 4; text-align: left; }
+  body .seedra-footer .pages-text p:nth-of-type(4) { grid-column: 2; grid-row: 2; text-align: right; }
+  body .seedra-footer .pages-text p:nth-of-type(5) { grid-column: 2; grid-row: 3; text-align: right; }
+
+  body .seedra-footer .lene2 {
+    margin-top: 24px;
+  }
+
+  body .seedra-footer .ilova-footer {
+    margin-top: 16px;
+  }
+
+  body .seedra-footer .ilova-footer div {
+    gap: 12px;
+  }
+
+  body .seedra-footer .ilova-footer div img {
+    width: 20px;
+    height: 20px;
+  }
+
+  body .seedra-footer .ilova-footer p {
+    font-size: 12px;
+  }
+}

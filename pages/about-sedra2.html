@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/about-sedra2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 </head>
 <body>
     
@@ -61,29 +64,214 @@
 
     <section class="our-section canteiner">
         <div class="our-btns">
-            <button>
-                <img src="../assets/svg/Vector.svg" alt="">
-                ALL</button>
-            <button>
-                <img src="../assets/svg/Frame 15.svg" alt="">
-                BUNDLES</button>
-            <button>
-                <img src="../assets/imgs/Vector.png" alt="">
-                HERBS</button>
-            <button>
-                <img src="../assets/imgs/Group.png" alt="">
-                VEGETABLES</button>
-            <button>
-                <img src="../assets/imgs/Frame.png" alt="">
-                FRUITS</button>
-            <button>
-                <img src="../assets/imgs/gardening tool.png" alt="">
-                SUPPLIES</button>
-            <button>
-                <img src="../assets/imgs/Flower.png" alt="">
-                FLOWERS</button>
+            <button><img src="../assets/svg/Vector.svg" alt="">ALL</button>
+            <button><img src="../assets/svg/Frame 15.svg" alt="">BUNDLES</button>
+            <button><img src="../assets/imgs/Vector.png" alt="">HERBS</button>
+            <button><img src="../assets/imgs/Group.png" alt="">VEGETABLES</button>
+            <button><img src="../assets/imgs/Frame.png" alt="">FRUITS</button>
+            <button><img src="../assets/imgs/gardening tool.png" alt="">SUPPLIES</button>
+            <button><img src="../assets/imgs/Flower.png" alt="">FLOWERS</button>
+        </div>
+
+        <div class="content-wrapper">
+
+            <!-- FILTER SIDEBAR -->
+            <aside class="filters">
+                <h3 class="filters-title">FILTERS</h3>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Seed type</h4>
+                        <svg class="arrow up" viewBox="0 0 24 24" width="16"><path d="M12 8.4L4.4 16 3 14.6l9-9 9 9-1.4 1.4z"/></svg>
+                    </div>
+                    <div class="filter-divider"></div>
+
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Hybrid
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span>
+                        Open Pollinated
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Organic Seeds, Plants, and Supplies
+                    </label>
+                    <label class="filter-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Pelleted Seed
+                    </label>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Featured</h4>
+                        <svg class="arrow down" viewBox="0 0 24 24" width="16"><path d="M12 15.6L4.4 8l1.4-1.4L12 12.8l6.2-6.2L19.6 8z"/></svg>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Growing Conditions</h4>
+                        <svg class="arrow down" viewBox="0 0 24 24" width="16"><path d="M12 15.6L4.4 8l1.4-1.4L12 12.8l6.2-6.2L19.6 8z"/></svg>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Price</h4>
+                        <svg class="arrow up" viewBox="0 0 24 24" width="16"><path d="M12 8.4L4.4 16 3 14.6l9-9 9 9-1.4 1.4z"/></svg>
+                    </div>
+                    <div class="filter-divider"></div>
+
+                    <div class="price-inputs">
+                        <div class="price-field">
+                            <label>From</label>
+                            <input type="text" value="$1232">
+                        </div>
+                        <span class="price-dash">—</span>
+                        <div class="price-field">
+                            <label>To</label>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+
+                    <input type="range" class="price-slider" min="0" max="100" value="25">
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Use</h4>
+                        <svg class="arrow down" viewBox="0 0 24 24" width="16"><path d="M12 15.6L4.4 8l1.4-1.4L12 12.8l6.2-6.2L19.6 8z"/></svg>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h4>Additional Characteristic</h4>
+                        <svg class="arrow down" viewBox="0 0 24 24" width="16"><path d="M12 15.6L4.4 8l1.4-1.4L12 12.8l6.2-6.2L19.6 8z"/></svg>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- PRODUCT GRID -->
+            <div class="related-grid">
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price">$12.56</span>
+                        <button class="cart-icon-btn"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price">$12.56</span>
+                        <button class="cart-icon-btn active-cart"><i class="fas fa-check"></i></button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price"><img src="../assets/imgs/ant-design_fire-filled.png" alt="">$12.56</span>
+                        <button class="cart-icon-btn active-cart"><i class="fas fa-check"></i></button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price">$12.56</span>
+                        <button class="cart-icon-btn"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price">$12.56</span>
+                        <button class="cart-icon-btn active-cart"><i class="fas fa-check"></i></button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <button class="wishlist-icon"><i class="far fa-heart"></i></button>
+                    <img src="../assets/imgs/image 1.png" alt="product">
+                    <div class="card-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(123)</span>
+                    </div>
+                    <h3>SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting</h3>
+                    <div class="card-footer">
+                        <span class="price"><img src="../assets/imgs/ant-design_fire-filled.png" alt="">$12.56</span>
+                        <button class="cart-icon-btn active-cart"><i class="fas fa-check"></i></button>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
+
+    <footer class="seedra-footer canteiner">
+        <div class="pages-text">
+            <p class="p1">ALL PRODUCTS</p>
+            <div class="line"></div>
+            <p>ABOUT SEEDRA</p>
+            <div class="line"></div>
+            <p>OUR BLOG</p>
+            <img src="../assets/svg/Frame.svg" alt="">
+            <p>Terms&amp;Conditions</p>
+            <div class="line"></div>
+            <p>Privacy Policy.</p>
+        </div>
+        <div class="lene2"></div>
+        <div class="ilova-footer">
+            <div>
+                <img src="../assets/imgs/ant-design_instagram-filled.png" alt="">
+                <img src="../assets/imgs/akar-icons_facebook-fill (1).png" alt="">
+            </div>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
 
 </body>
 </html>

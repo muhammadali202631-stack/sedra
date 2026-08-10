@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+ 
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.canteiner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+/* ============================================
+   NAVBAR
+   ============================================ */
+ 
+.navbar {
+  width: 100%;
+  min-height: 72px;
+  padding: 0 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navbar .canteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+}
+ 
+.navbar .project {
+  display: flex;
+  gap: 2rem;
+}
+ 
+.navbar .project p {
+  cursor: pointer;
+  color: #70737c;
+  font-size: 12px;
+  font-weight: 400;
+}
+ 
+.navbar .project p:hover {
+  color: #359740;
+}
+ 
+.navbar button {
+  width: 285px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: -30px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 1px solid #efefef;
+  background: white;
+}
+ 
+.navbar button input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+}
+ 
+.navbar .ilova {
+  display: flex;
+  gap: 12px;
+}
+ 
+.navbar .ilova img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+ 
+.navbar .ilova1 {
+  color: #70737c;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+ 
+.navbar .ilova1 svg {
+  color: #359740;
+  cursor: pointer;
+}
+ 
+.navbar .ilova1 img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+ 
+/* ============================================
+   PAYMENT PAGE
+   ============================================ */
+ 
+.payment-page {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ 
+.payment-box {
+  width: 100%;
+  max-width: 420px;
+}
+ 
+.payment-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+ 
+.payment-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+ 
+.back-arrow {
+  color: #1f2533;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+ 
+.payment-title h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1f2533;
+}
+ 
+.progress-indicator {
+  display: flex;
+  gap: 6px;
+}
+ 
+.progress-bar {
+  width: 30px;
+  height: 4px;
+  border-radius: 4px;
+  background: #e5e5e5;
+}
+ 
+.progress-bar.active {
+  background: #27833a;
+}
+ 
+/* CARD TYPE */
+ 
+.section-label {
+  display: block;
+  font-size: 12px;
+  color: #70737c;
+  margin-bottom: 10px;
+}
+ 
+.card-type-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+ 
+.card-type-btn {
+  flex: 1;
+  height: 46px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 22px;
+  color: #444;
+}
+ 
+.card-type-btn.active {
+  border: 1.5px solid #27833a;
+}
+ 
+.card-type-btn .visa-icon {
+  color: #1a1f71;
+}
+ 
+.card-type-btn .mc-icon {
+  color: #eb001b;
+}
+ 
+.card-type-btn .paypal-icon {
+  color: #003087;
+}
+ 
+/* FORM FIELDS */
+ 
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+ 
+.form-field label {
+  font-size: 12px;
+  color: #70737c;
+}
+ 
+.form-field input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  padding: 0 18px;
+  font-size: 14px;
+  outline: none;
+  color: #1f2533;
+}
+ 
+.form-field input::placeholder {
+  color: #a7abb2;
+}
+ 
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+ 
+.form-row .form-field {
+  margin-bottom: 20px;
+}
+ 
+.payment-divider {
+  width: 100%;
+  height: 1px;
+  background: #ececec;
+  margin: 10px 0 20px;
+}
+ 
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+ 
+.total-row span:first-child {
+  font-size: 13px;
+  color: #70737c;
+}
+ 
+.total-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2533;
+}
+ 
+.continue-btn {
+  width: 100%;
+  height: 60px;
+  background: #27833a;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26px;
+}
+ 
+.continue-btn .price-part {
+  font-size: 16px;
+  font-weight: 700;
+}
+ 
+.continue-btn .continue-part {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+ 
+/* ============================================
+   FOOTER
+   ============================================ */
+ 
+.seedra-footer {
+  margin: 50px auto 30px;
+  width: 100%;
+}
+ 
+.seedra-footer .pages-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+ 
+.seedra-footer .pages-text p {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  color: #70737c;
+  white-space: nowrap;
+}
+ 
+.seedra-footer .pages-text .p1 {
+  color: #359740;
+}
+ 
+.seedra-footer .pages-text .line {
+  width: 1.5px;
+  height: 20px;
+  background: #d5d5d5;
+}
+ 
+.seedra-footer .pages-text img {
+  height: 22px;
+  margin: 0 1rem;
+}
+ 
+.seedra-footer .lene2 {
+  margin-top: 24px;
+  width: 100%;
+  height: 1.5px;
+  background: #c3e0c6;
+}
+ 
+.seedra-footer .ilova-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+ 
+.seedra-footer .ilova-footer div {
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+ 
+.seedra-footer .ilova-footer div img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+ 
+.seedra-footer .ilova-footer p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #70737c;
+}
+ 
+/* ============================================
+   RESPONSIVE — MOBILE (max-width: 768px)
+   ============================================ */
+ 
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 16px;
+    width: 100%;
+  }
+ 
+  .canteiner,
+  .payment-page,
+  .navbar .canteiner,
+  .seedra-footer {
+    max-width: 100% !important;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+ 
+  /* NAVBAR */
+  .navbar {
+    padding: 14px 0;
+    min-height: 56px;
+  }
+ 
+  .navbar .canteiner {
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+  }
+ 
+  .navbar .project,
+  .navbar button,
+  .navbar .ilova {
+    display: none;
+  }
+ 
+  .navbar .logo img {
+    height: 20px;
+  }
+ 
+  .navbar .ilova1 {
+    gap: 16px;
+  }
+ 
+  /* PAYMENT */
+  .payment-page {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+ 
+  .payment-box {
+    max-width: 100%;
+  }
+ 
+  .payment-title h1 {
+    font-size: 20px;
+  }
+ 
+  .card-type-row {
+    gap: 8px;
+  }
+ 
+  .card-type-btn {
+    height: 42px;
+    font-size: 18px;
+  }
+ 
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+ 
+  .form-field input {
+    height: 46px;
+    font-size: 13px;
+  }
+ 
+  .continue-btn {
+    height: 54px;
+    padding: 0 20px;
+  }
+ 
+  /* FOOTER */
+  .seedra-footer {
+    margin: 30px auto;
+    width: 100%;
+  }
+ 
+  .seedra-footer .pages-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 14px;
+    column-gap: 20px;
+    align-items: start;
+  }
+ 
+  .seedra-footer .pages-text img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    height: 22px;
+    margin: 0 0 10px 0;
+  }
+ 
+  .seedra-footer .pages-text .line {
+    display: none;
+  }
+ 
+  .seedra-footer .pages-text p:nth-of-type(1) { grid-column: 1; grid-row: 2; text-align: left; }
+  .seedra-footer .pages-text p:nth-of-type(2) { grid-column: 1; grid-row: 3; text-align: left; }
+  .seedra-footer .pages-text p:nth-of-type(3) { grid-column: 1; grid-row: 4; text-align: left; }
+  .seedra-footer .pages-text p:nth-of-type(4) { grid-column: 2; grid-row: 2; text-align: right; }
+  .seedra-footer .pages-text p:nth-of-type(5) { grid-column: 2; grid-row: 3; text-align: right; }
+ 
+  .seedra-footer .lene2 {
+    margin-top: 24px;
+  }
+ 
+  .seedra-footer .ilova-footer {
+    margin-top: 16px;
+  }
+ 
+  .seedra-footer .ilova-footer div {
+    gap: 12px;
+  }
+ 
+  .seedra-footer .ilova-footer div img {
+    width: 20px;
+    height: 20px;
+  }
+ 
+  .seedra-footer .ilova-footer p {
+    font-size: 12px;
+  }
+}
+ 
