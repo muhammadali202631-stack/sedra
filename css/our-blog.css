@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+body .navbar {
+    width: 100%;
+    min-height: 72px;
+    padding: 0 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body .navbar .canteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+    width: 100%;
+}
+
+body .navbar .canteiner .project {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+
+body .navbar .canteiner .project p a {
+    cursor: pointer;
+    color: #70737c;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+body .navbar .canteiner .project p:hover {
+    color: #359740;
+}
+
+body .navbar .canteiner button {
+    width: 285px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-left: -30px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 1px solid #efefef;
+    background: white;
+}
+
+body .navbar .canteiner button input {
+    border: none;
+    background: transparent;
+    margin-right: 40px;
+}
+
+body .navbar .canteiner .ilova {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+body .navbar .canteiner .ilova1 {
+    cursor: pointer;
+    color: #70737c;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+body .navbar .canteiner .ilova1 svg {
+    color: #359740;
+}
+
+body .liniar,
+body .chiziq-uzun {
+    width: 100%;
+    height: 1px;
+    background: #efefef;
+}
+
+.hero-blog {
+    position: relative;
+    width: 100%;
+    height: 251px;
+    background: rgba(234, 241, 235, 1);
+    border-radius: 24px;
+    margin-top: 50px;
+    font-family: "lexend", sans-serif;
+    overflow: hidden;
+}
+
+.hero-blog h1 {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+.hero-blog p {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+
+.hero-blog .img1 {
+    position: absolute;
+    width: 150px;
+    top: 160px;
+    left: -55px;
+}
+
+.hero-blog .img2 {
+    position: absolute;
+    left: 1080px;
+    top: 30px;
+}
+
+.hero-blog .img3 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+
+}
+
+.search-section .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.search-input {
+    width: 825px;
+    height: 64px;
+    border-radius: 71px;
+    border: 1px solid #efefef;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.search-input:hover {
+    border: 1px solid #efefef;
+}
+
+.btn20 {
+    width: 358px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: transparent;
+    border: 1px solid #efefef;
+    border-radius: 71px;
+}
+
+.searchs {
+    display: flex;
+    margin-top: 40px;
+    gap: 3rem;
+}
+
+.btn12 {
+    text-align: start;
+}
+
+.p12 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #70737c;
+}
+
+.p15 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f2533;
+}
+.hero-plan{
+    margin-bottom: 100px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 28px;
+    
+
+}
+
+.div1 {
+    overflow: hidden;
+    grid-column: span 8 / span 8;
+    grid-row: span 4 / span 4;
+    border: 1px solid #1f2533;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #eaf1ea;
+}
+
+.div1 .left1 {
+    padding: 20px 20px;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 8 / span 8;
+    grid-column-start: 9;
+    border: 1px solid #1f2533;
+    background-color: #eff2f8;
+    border-radius: 15px;
+
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-row-start: 5;
+    border: 1px solid #1f2533;
+    background-color: #eff2f8;
+    border-radius: 15px;
+}
+
+.div4 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 5;
+    border: 1px solid #1f2533;
+    background-color: #eff2f8;
+    border-radius: 15px;
+}
+
+.div5 {
+    grid-column: span 8 / span 8;
+    grid-row: span 4 / span 4;
+    grid-row-start: 9;
+    border: 1px solid #1f2533;
+    border-radius: 15px;
+}
+
+.div6 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 9;
+    grid-row-start: 9;
+    border: 1px solid #1f2533;
+    border-radius: 15px;
+}
+
+.div7 {
+    grid-column: span 4 / span 4;
+    grid-row: span 8 / span 8;
+    grid-row-start: 13;
+    border: 1px solid #1f2533;
+    border-radius: 15px;
+}
+
+.div8 {
+    grid-column: span 4 / span 4;
+    grid-row: span 8 / span 8;
+    grid-column-start: 5;
+    grid-row-start: 13;
+    border: 1px solid #1f2533;
+    border-radius: 15px;
+}
+
+.div9 {
+    grid-column: span 4 / span 4;
+    grid-row: span 8 / span 8;
+    grid-column-start: 9;
+    grid-row-start: 13;
+    border: 1px solid #1f2533;
+    border-radius: 15px;
+}
