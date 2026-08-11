@@ -109,6 +109,9 @@ body .navbar .canteiner button input:hover {
 
   background: transparent;
 }
+input:focus {
+    outline: none;
+}
 
 body .navbar .canteiner .ilova {
   width: 24px;
