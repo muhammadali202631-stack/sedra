@@ -71,6 +71,9 @@ body .navbar .canteiner .project p {
 
   font-weight: 400;
 }
+.navbar a{
+  text-decoration: none;
+}
 
 body .navbar .canteiner button {
   width: 285px;
