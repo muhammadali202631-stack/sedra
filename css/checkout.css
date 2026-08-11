@@ -1,64 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
- 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lexend", sans-serif;
 }
- 
+
 body {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  overflow-x: hidden;
 }
- 
-.canteiner {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
- 
-/* ============================================
-   NAVBAR
-   ============================================ */
- 
-.navbar {
+
+body .navbar {
   width: 100%;
   min-height: 72px;
   padding: 0 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
- 
-.navbar .canteiner {
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .navbar .canteiner {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 20px;
   gap: 4.5rem;
+  width: 100%;
 }
- 
-.navbar .project {
+
+body .navbar .canteiner .project {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   gap: 2rem;
 }
- 
-.navbar .project p {
+
+body .navbar .canteiner .project p a {
   cursor: pointer;
   color: #70737c;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
+  text-decoration: none;
 }
- 
-.navbar .project p:hover {
+
+body .navbar .canteiner .project p:hover {
   color: #359740;
 }
- 
-.navbar button {
+
+body .navbar .canteiner button {
   width: 285px;
   height: 48px;
   display: flex;
@@ -71,41 +75,38 @@ body {
   border: 1px solid #efefef;
   background: white;
 }
- 
-.navbar button input {
+
+body .navbar .canteiner button input {
   border: none;
   background: transparent;
-  outline: none;
-  width: 100%;
+  margin-right: 40px;
 }
- 
-.navbar .ilova {
-  display: flex;
-  gap: 12px;
-}
- 
-.navbar .ilova img {
-  width: 22px;
-  height: 22px;
+
+body .navbar .canteiner .ilova {
+  width: 24px;
+  height: 24px;
   cursor: pointer;
+  display: flex;
+  gap: 10px;
 }
- 
-.navbar .ilova1 {
+
+body .navbar .canteiner .ilova1 {
+  cursor: pointer;
   color: #70737c;
   display: flex;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
 }
- 
-.navbar .ilova1 svg {
+
+body .navbar .canteiner .ilova1 svg {
   color: #359740;
-  cursor: pointer;
 }
- 
-.navbar .ilova1 img {
-  width: 22px;
-  height: 22px;
-  cursor: pointer;
+
+body .liniar,
+body .chiziq-uzun {
+  width: 100%;
+  height: 1px;
+  background: #efefef;
 }
  
 /* ============================================
