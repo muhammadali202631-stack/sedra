@@ -230,6 +230,7 @@ body .chiziq-uzun {
     justify-content: space-between;
     border-radius: 15px;
     background-color: #eaf1ea;
+    height: 350px;
 }
 
 .div1 .left1 {
@@ -243,6 +244,7 @@ body .chiziq-uzun {
     border: 1px solid #1f2533;
     background-color: #eff2f8;
     border-radius: 15px;
+    height: 728px;
 
 }
 
@@ -253,6 +255,8 @@ body .chiziq-uzun {
     border: 1px solid #1f2533;
     background-color: #eff2f8;
     border-radius: 15px;
+    height: 350px;
+    margin-top: -75px;
 }
 
 .div4 {
@@ -263,6 +267,7 @@ body .chiziq-uzun {
     border: 1px solid #1f2533;
     background-color: #eff2f8;
     border-radius: 15px;
+    
 }
 
 .div5 {
