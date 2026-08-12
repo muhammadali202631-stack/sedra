@@ -1,88 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Blog | SEEDRA</title>
     <link rel="stylesheet" href="../css/our-blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="liniar"></div>
-    <nav class="navbar ">
+ 
+    <!-- NAVBAR -->
+    <nav class="navbar">
         <div class="canteiner">
             <div class="logo">
-                <a href="../index.html"> <img src="../assets/svg/Frame.svg" alt=""></a>
+                <img src="../assets/svg/Frame.svg" alt="SEEDRA">
             </div>
             <div class="project">
-                <p><a href="./pages/all-prodoct.html">ALL PRODUCTS</a></p>
-                <p><a href="./pages/about-seedra.html">ABOUT SEEDRA</a></p>
-                <p><a href="./pages/our-blog.html">OUR BLOG</a></p>
-                <p><a href="./pages/contact.html">CONTACTS</a></p>
+                <p>ALL PRODUCTS</p>
+                <p>ABOUT SEEDRA</p>
+                <p>OUR BLOG</p>
+                <p>CONTACTS</p>
             </div>
             <div class="ilova">
-                <img src="../assets/imgs/ant-design_instagram-filled.png" alt="">
+                <img src="../assets/imgs/ant-design_instagram-filled (1).png" alt="">
                 <img src="../assets/imgs/akar-icons_facebook-fill.png" alt="">
             </div>
-            <button>
+            <button class="search-btn">
                 <img src="../assets/imgs/icon_search.png" alt="">
                 <input type="text" placeholder="Search">
             </button>
             <div class="ilova1">
-                <a href="./yourcard.html"> <img src="../assets/svg/icon_cart_simple.svg" alt=""></a>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" fill="currentColor">
-                    <path
-                        d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z">
-                    </path>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" fill="currentColor">
+                    <path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"></path>
                 </svg>
-
+                <img src="../assets/svg/icon_cart_simple.svg" alt="">
             </div>
         </div>
     </nav>
-    <section class="hero-blog container">
-        <img class="img1" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 4.svg" alt="">
-        <img class="img2" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 1.svg" alt="">
-        <img class="img3" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 2 (2).svg" alt="">
-        <h1>Welcome to our blog</h1>
-        <p>Here you can find a lot of interesting and useful information that you <br> need in gardening and creating a
-            beautiful garden</p>
-
-    </section>
-    <section class="search-section">
-        <div class="container">
-            <div class="searchs">
-                <input class="search-input" type="text" placeholder="Search">
-                <button class="btn20">
-                    <div class="btn12">
-                        <p class="p12">Sory by </p>
-                        <p class="p15">Most expensive</p>
-                    </div>
-                    <div class="btn13">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12 15.6315L20.9679 10.8838L20.0321 9.11619L12 13.3685L3.9679 9.11619L3.03212 10.8838L12 15.6315Z">
-                            </path>
-                        </svg>
-                    </div>
-                </button>
+ 
+    <main class="blog-page canteiner">
+ 
+        <!-- HERO -->
+        <section class="blog-hero">
+            <img class="leaf leaf-1" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 1.svg" alt="">
+            <img class="leaf leaf-2" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 2.svg" alt="">
+            <img class="leaf leaf-3" src="../assets/svg/fresh-sweet-basil-leaves-isolated-white-background 4.svg" alt="">
+            <h1>Welcome to our blog</h1>
+            <p>Here you can find a lot of interesting and useful information that you need in gardening and creating a beautiful garden</p>
+        </section>
+ 
+        <!-- SEARCH + SORT -->
+        <section class="blog-search-row">
+            <div class="blog-search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
             </div>
+            <div class="blog-sort">
+                <div class="sort-text">
+                    <span class="sort-label">Sort by</span>
+                    <span class="sort-value">Recently</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.6315L20.9679 10.8838L20.0321 9.11619L12 13.3685L3.9679 9.11619L3.03212 10.8838L12 15.6315Z"></path>
+                </svg>
+            </div>
+        </section>
+ 
+        <!-- BLOG GRID 1: large(spinach) + tall(woman basket) + 2 small(grape, strawberry) -->
+        <section class="blog-grid">
+ 
+            <article class="blog-card card-large card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-right" src="../assets/svg/image 2 (1).svg" alt="spinach">
+            </article>
+ 
+            <article class="blog-card card-tall card-bg-gray">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom" src="../assets/imgs/qulipnay-opa.png" alt="woman with basket">
+            </article>
+ 
+            <article class="blog-card card-small card-bg-gray">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom-right" src="../assets/svg/uzum.svg" alt="grape">
+            </article>
+ 
+            <article class="blog-card card-small card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom-right" src="../assets/svg/qulipnay.svg" alt="strawberry">
+            </article>
+ 
+        </section>
+ 
+        <!-- BLOG GRID 2: large(strawberries) + medium(field woman) + 3 full cards -->
+        <section class="blog-grid blog-grid-2">
+ 
+            <article class="blog-card card-large card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-right" src="../assets/svg/kattaqulipnay.svg" alt="strawberries">
+            </article>
+ 
+            <article class="blog-card card-medium card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom-right" src="../assets/svg/tabiat.svg" alt="woman in field">
+            </article>
+ 
+            <article class="blog-card card-full card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom" src="../assets/imgs/pretty-arab-woman-smiling-happily-with-hand-hip-confident-holding-potted-cactus 1.png" alt="woman with cactus">
+            </article>
+ 
+            <article class="blog-card card-full card-bg-gray">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom" src="../assets/svg/uzum.svg" alt="grapes">
+            </article>
+ 
+            <article class="blog-card card-full card-bg-green">
+                <div class="card-content">
+                    <div class="card-date"><i class="far fa-clock"></i><span>12.09.2021</span></div>
+                    <h3>How to plant spinach correctly in winter</h3>
+                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                    <button class="read-btn">Read</button>
+                </div>
+                <img class="card-img card-img-bottom" src="../assets/imgs/young-pretty-woman-feeling-happy-surprised-realizing-solution-idea-with-straw-hat-holding-cactus 1.png" alt="woman with hat">
+            </article>
+ 
+        </section>
+ 
+    </main>
+ 
+    <footer class="seedra-footer canteiner">
+        <div class="pages-text">
+            <p class="p1">ALL PRODUCTS</p>
+            <div class="line"></div>
+            <p>ABOUT SEEDRA</p>
+            <div class="line"></div>
+            <p>OUR BLOG</p>
+            <img src="../assets/svg/Frame.svg" alt="">
+            <p>Terms&amp;Conditions</p>
+            <div class="line"></div>
+            <p>Privacy Policy.</p>
         </div>
-    </section>
-    <section class="hero-plan container" style="margin-top: 100px;">
-        <div class="parent">
-            <div class="div1">
-                <div class="left1">
-                    <img src="../assets/svg/Frame 26 (1).svg" alt="">
-                    <h2>How to plant spinach correctly in winter</h2>
-                    <p>In most areas, successive sowing can be done from early spring until early winter, but more often
-                        during hotter months...</p>
-                    <a href="#"><button>Read</button></a>
-                </div>
-                <div class="rigt1">
-                    <img src="../assets/svg/image 2 (1).svg" alt="">
-                </div>
+        <div class="lene2"></div>
+        <div class="ilova-footer">
+            <div>
+                <img src="../assets/imgs/ant-design_instagram-filled (1).png" alt="">
+                <img src="../assets/imgs/akar-icons_facebook-fill (1).png" alt="">
             </div>
+<<<<<<< HEAD
             <div class="div2">
                 <div class="left2">
                     <div class="left1">
@@ -178,6 +279,12 @@
 
 
     </section>
+=======
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+ 
+>>>>>>> ff843b1 (Our ni tugatdim)
 </body>
-
 </html>
+ 

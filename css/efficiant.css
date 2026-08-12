@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 30px auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body .navbar {
+  width: 126.5%;
+
+  min-height: 72px;
+
+  padding: 0 20px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+body .navbar .canteiner {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4.5rem;
+  margin-left: 150px;
+}
+
+body .navbar .canteiner .project {
+  display: flex;
+
+  gap: 2rem;
+}
+
+body .navbar .canteiner .project p {
+  color: #70737c;
+
+  font-size: 14px;
+
+  font-weight: 400;
+}
+
+body .navbar .canteiner button {
+  width: 285px;
+
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  margin-left: -30px;
+
+  padding: 5px 20px;
+
+  border-radius: 50px;
+
+  border: 1px solid #efefef;
+
+  background: white;
+}
+
+body .navbar .canteiner button input {
+  border: none;
+
+  background: transparent;
+
+  margin-right: 40px;
+}
+
+body .navbar .canteiner button input:hover {
+  border: transparent;
+
+  background: transparent;
+}
+
+body .navbar .canteiner .ilova {
+  width: 24px;
+
+  height: 24px;
+
+  cursor: pointer;
+
+  display: flex;
+}
+
+body .navbar .canteiner .ilova1 {
+  cursor: pointer;
+
+  color: #70737c;
+
+  display: flex;
+
+  gap: 1rem;
+}
+
+body .navbar .canteiner .ilova1 svg {
+  color: #359740;
+}
+
+.hero-section {
+  width: 100%;
+  height: 251px;
+  margin-bottom: 100px;
+}
+
+.hero-section img {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  font-family: "lexand", sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 180px;
+  margin-left: 340px;
+}
+
+.text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.big-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div {
+  width: 50%;
+  font-family: "lexend", sans-serif;
+}
+
+.left-div h1 {
+  font-size: 39px;
+  line-height: 49px;
+  margin-bottom: 30px;
+}
+
+.left-div p {
+  color: rgba(31, 37, 51, 1);
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.our-story {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 48%;
+}
+
+.rigt {
+  font-family: "lexend", sans-serif;
+  width: 48%;
+}
+
+.rigt h1 {
+  font-size: 39px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.rigt p {
+  color: rgba(31, 37, 51, 1);
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.hero-team {
+  font-family: "lexend", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.hero-team h1 {
+  margin-bottom: 100px;
+}
+
+.bigg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* FOOTER */
+body .seedra-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+}
+
+body .seedra-footer .pages-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+}
+
+body .seedra-footer .pages-text p {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 178%;
+  color: #70737c;
+}
+
+body .seedra-footer .pages-text .p1 {
+  color: #359740;
+}
+
+body .seedra-footer .pages-text .line {
+  width: 1.5px;
+  height: 30px;
+  background: #359740;
+}
+
+body .seedra-footer .lene2 {
+  margin-top: 30px;
+  width: 100%;
+  height: 1.5px;
+  background: #c3e0c6;
+}
+
+body .seedra-footer .ilova-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+body .seedra-footer .ilova-footer div {
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+body .seedra-footer .ilova-footer div img {
+  cursor: pointer;
+}
+
+body .seedra-footer .ilova-footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 178%;
+  color: #70737c;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* ============================================
+     NAVBAR
+     ============================================ */
+  body .navbar {
+    width: 100%;
+    min-height: 56px;
+    margin-top: 0;
+    padding: 0 16px;
+  }
+
+  body .navbar .canteiner {
+    width: 100%;
+    margin-left: 0;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  body .navbar .canteiner .project,
+  body .navbar .canteiner .ilova,
+  body .navbar .canteiner button {
+    display: none;
+  }
+
+  body .navbar .canteiner .logo img {
+    height: 20px;
+  }
+
+  body .navbar .canteiner .ilova1 {
+    gap: 14px;
+    align-items: center;
+  }
+
+  body .navbar .canteiner .ilova1 svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  body .navbar .canteiner .ilova1 img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* menu (hamburger) ikonkasi HTML'da yo'q, shuning uchun sof CSS bilan hosil qilinadi */
+  body .navbar .canteiner .ilova1::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #1f2533;
+    box-shadow:
+      0 6px 0 #1f2533,
+      0 -6px 0 #1f2533;
+    margin-left: 4px;
+  }
+
+  /* ============================================
+     HERO SECTION
+     ============================================ */
+  .hero-section {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0 16px;
+    position: relative;
+  }
+
+  .hero-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+    display: block;
+    object-fit: contain;
+  }
+
+  .text {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: 0;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  .text p {
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 300;
+  }
+
+  .text p br {
+    display: none;
+  }
+
+  /* ============================================
+     SEEDRA HELP SECTION
+     ============================================ */
+  .seedra-hero {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 30px;
+  }
+
+  .big-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .left-div {
+    width: 100%;
+    text-align: left;
+  }
+
+  .left-div h1 {
+    font-size: 21px;
+    line-height: 27px;
+    margin-bottom: 16px;
+  }
+
+  .left-div p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+
+  .right-div {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-div img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* ============================================
+     OUR STORY
+     ============================================ */
+  .our-story {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .rigt {
+    order: 1;
+    width: 100%;
+    text-align: left;
+  }
+
+  .left {
+    order: 2;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .rigt h1 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  .rigt p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+
+  .left img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+  }
+
+  /* ============================================
+     MEET OUR TEAM
+     ============================================ */
+  .hero-team {
+    width: 100%;
+    padding: 0 0 0 16px;
+    margin-bottom: 50px;
+  }
+
+  .hero-team h1 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .bigg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    line-height: normal;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .bigg::-webkit-scrollbar {
+    display: none;
+  }
+
+  .team1,
+  .team2,
+  .team3,
+  .team4 {
+    flex: 0 0 auto;
+    width: 110px;
+    text-align: left;
+  }
+
+  .team1 img,
+  .team2 img,
+  .team3 img,
+  .team4 img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 0 10px 0;
+    display: block;
+  }
+
+  .team1 h3,
+  .team2 h3,
+  .team3 h3,
+  .team4 h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .team1 p,
+  .team2 p,
+  .team3 p,
+  .team4 p {
+    font-size: 11px;
+    color: #70737c;
+  }
+
+  /* ============================================
+     FOOTER
+     ============================================ */
+  body .seedra-footer {
+    height: auto;
+    margin: 10px auto 0;
+    width: 100%;
+    padding: 0 16px 20px;
+  }
+
+  body .seedra-footer .pages-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 14px;
+    column-gap: 20px;
+    align-items: start;
+  }
+
+  body .seedra-footer .pages-text img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-self: center;
+    height: 22px;
+    margin-bottom: 10px;
+  }
+
+  body .seedra-footer .pages-text .line {
+    display: none;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(2) {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(3) {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: left;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(4) {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: right;
+  }
+
+  body .seedra-footer .pages-text p:nth-of-type(5) {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: right;
+  }
+
+  body .seedra-footer .lene2 {
+    margin-top: 24px;
+  }
+
+  body .seedra-footer .ilova-footer {
+    margin-top: 16px;
+  }
+
+  body .seedra-footer .ilova-footer div {
+    gap: 12px;
+  }
+
+  body .seedra-footer .ilova-footer div img {
+    width: 20px;
+    height: 20px;
+  }
+
+  body .seedra-footer .ilova-footer p {
+    font-size: 12px;
+  }
+}
