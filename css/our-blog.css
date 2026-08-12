@@ -43,12 +43,13 @@ body {
   gap: 2rem;
 }
 
-.navbar .project p {
+.navbar .project a {
   cursor: pointer;
   color: #70737c;
   font-size: 12px;
   font-weight: 400;
 }
+
 
 .navbar .project p:hover {
   color: #359740;
