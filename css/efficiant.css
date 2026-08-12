@@ -98,7 +98,7 @@ body .navbar .canteiner button {
 
 body .navbar .canteiner button input {
   border: none;
-
+outline: none;
   background: transparent;
 
   margin-right: 40px;
